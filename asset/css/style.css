@@ -1,0 +1,24 @@
+.btn-bg{
+    background-color: (59, 59, 59);
+}
+.dev{
+    background: linear-gradient(120deg, rgb(30, 29, 29) 20%, rgba(19, 18, 18, 1) 80%);
+}
+.kk{
+    right: 0;
+    bottom: -60px;
+}
+.c{
+    animation: a 2s ease  infinite backwards ;
+   animation-timing-function: cubic-bezier(0.23, 0.3, 0.320, 1);
+   animation-play-state: running;
+   
+}
+@keyframes a {
+    0% {
+       transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-600px);
+    }    
+}
